@@ -1,6 +1,6 @@
 export default (seconds) => {
   let minsValue = Math.floor(seconds / 60)
-  let secsValue = seconds - minsValue * 60
+  let secsValue = Math.floor(seconds - minsValue * 60)
   let mins
   if (minsValue === 0) {
     mins = '00'

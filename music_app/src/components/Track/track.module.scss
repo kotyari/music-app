@@ -11,7 +11,7 @@
 
   &p {
     letter-spacing: 1px;
-    color: #9e9e9e;
+    color: #ffffff;
     font-size: 15px;
   }
 }
@@ -30,6 +30,10 @@
   border-radius: 10px;
 }
 
+.track * {
+  color: #d3d3d3;
+}
+
 .playing * {
-  color: #9340fe !important;
+  color: rgb(56, 241, 201) !important;
 }
